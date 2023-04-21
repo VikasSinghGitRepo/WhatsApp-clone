@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/settings"
+        android:title="settings"
+        />
+    <item
+        android:id="@+id/GroupChat"
+        android:title="Group Chat"
+        />
+    <item
+        android:id="@+id/logOut"
+        android:title="Log out"
+        />
+    <item
+        android:id="@+id/search_bar"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+</menu>
